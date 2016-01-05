@@ -1,0 +1,3 @@
+language: crystal
+sudo: false
+email: false
