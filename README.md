@@ -27,7 +27,7 @@ then execute `shards install`.
 
 ## Configuration
 
-You can use a alternate CoffeeScript compiler version by setting the `COFFEESCRIPT_SOURCE_PATH` environment variable:
+You can use an alternate CoffeeScript compiler version by setting the `COFFEESCRIPT_SOURCE_PATH` environment variable:
 
 ```bash
 export COFFEESCRIPT_SOURCE_PATH=/my/custom/path/coffee-script.js
