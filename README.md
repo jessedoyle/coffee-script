@@ -1,5 +1,7 @@
 # Crystal CoffeeScript
 
+[![Build Status](https://travis-ci.org/jessedoyle/coffee-script.svg)](https://travis-ci.org/jessedoyle/coffee-script)
+
 This shard is a Crystal bridge to the official CoffeeScript compiler.
 
 ```crystal
