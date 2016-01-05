@@ -1,0 +1,12 @@
+name: coffee-script
+version: 0.1.0
+
+dependencies:
+  duktape:
+    github: jessedoyle/duktape.cr
+    branch: master
+  coffee-script-source:
+    github: jessedoyle/coffee-script-source
+    version: ~> 1.10.0
+
+license: MIT

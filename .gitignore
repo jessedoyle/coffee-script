@@ -1,0 +1,6 @@
+.DS_Store
+.crystal/
+.shards/
+.build/
+libs/
+/doc/

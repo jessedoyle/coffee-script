@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  coffee-script-source:
+    github: jessedoyle/coffee-script-source
+    version: 1.10.0
+
+  duktape:
+    path: /Users/jdsmash/Development/Crystal/duktape.cr
+    version: 0.6.5
+
