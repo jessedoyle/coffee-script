@@ -7,7 +7,7 @@ authors:
 dependencies:
   duktape:
     github: jessedoyle/duktape.cr
-    version: ~> 0.7.0
+    branch: master
   coffee-script-source:
     github: jessedoyle/coffee-script-source
     version: ~> 1.10.0

@@ -6,5 +6,5 @@ shards:
 
   duktape:
     github: jessedoyle/duktape.cr
-    commit: 084a6883e888bdc578305a1c87cf2ff5ecc35426
+    commit: fdb72e14303b94553cfeda0fea2ecd5e76939aec
 
