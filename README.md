@@ -20,7 +20,7 @@ Add this to your project's `shard.yml`:
 dependencies:
   coffee-script:
     github: jessedoyle/coffee-script
-    branch: master
+    version: ~> 0.1.2
 ```
 
 then execute `shards install`.

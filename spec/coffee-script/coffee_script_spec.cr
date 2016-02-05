@@ -75,7 +75,7 @@ describe CoffeeScript do
           unless
       EOS
 
-      expect_raises(Duktape::Error, /\ASyntaxError.*unexpected unless\z/) do
+      expect_raises(Duktape::SyntaxError, /unexpected unless/) do
         CoffeeScript.compile(src)
       end
     end
