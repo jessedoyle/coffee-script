@@ -3,6 +3,11 @@ require "coffee-script-source"
 
 module CoffeeScript
   module Source
+    @@contents : String?
+    @@version : String?
+    @@path : String?
+    @@context : Duktape::Runtime?
+
     COMPILE_FUNCTION = <<-JS
       ;function compile(script, options) {
         try {
@@ -34,7 +39,7 @@ module CoffeeScript
     end
 
     def self.path=(path : String)
-      @@content = nil
+      @@contents = nil
       @@version = nil
       @@context = nil
       @@path = path
