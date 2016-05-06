@@ -1,5 +1,6 @@
 # Crystal CoffeeScript
 
+[![GitHub version](https://badge.fury.io/gh/jessedoyle%2Fcoffee-script.svg)](https://badge.fury.io/gh/jessedoyle%2Fcoffee-script)
 [![Build Status](https://travis-ci.org/jessedoyle/coffee-script.svg)](https://travis-ci.org/jessedoyle/coffee-script)
 
 This shard is a Crystal bridge to the official CoffeeScript compiler.
@@ -20,7 +21,7 @@ Add this to your project's `shard.yml`:
 dependencies:
   coffee-script:
     github: jessedoyle/coffee-script
-    version: ~> 0.1.2
+    version: ~> 0.1.4
 ```
 
 then execute `shards install`.
