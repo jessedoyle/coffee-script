@@ -57,7 +57,7 @@ describe CoffeeScript do
           cubes = (math.cube num for num in list)
         COFFEE
 
-        hash = CoffeeScript.compile(src, { sourceMap: true }).as(Hash)
+        hash = CoffeeScript.compile(src, {sourceMap: true}).as(Hash)
         code = hash["js"].as(String)
         map = hash["sourceMap"].as(Hash)
 
