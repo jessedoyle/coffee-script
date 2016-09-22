@@ -21,7 +21,7 @@ Add this to your project's `shard.yml`:
 dependencies:
   coffee-script:
     github: jessedoyle/coffee-script
-    version: ~> 0.1.5
+    version: ~> 0.1.6
 ```
 
 then execute `shards install`.
