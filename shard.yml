@@ -1,5 +1,5 @@
 name: coffee-script
-version: 0.1.6
+version: 0.2.0
 
 authors:
   - Jesse Doyle <jdoyle@ualberta.ca>
@@ -10,6 +10,6 @@ dependencies:
     version: ~> 0.9.1
   coffee-script-source:
     github: jessedoyle/coffee-script-source
-    version: ~> 1.10.0
+    version: ~> 1.11.1
 
 license: MIT
