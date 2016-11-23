@@ -2,5 +2,5 @@
 .crystal/
 .shards/
 .build/
-libs/
+lib/
 /doc/
