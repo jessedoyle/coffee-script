@@ -1,5 +1,5 @@
 name: coffee-script
-version: 0.3.1
+version: 0.4.0
 
 authors:
   - Jesse Doyle <jdoyle@ualberta.ca>
@@ -7,7 +7,7 @@ authors:
 dependencies:
   duktape:
     github: jessedoyle/duktape.cr
-    version: ~> 0.10.1
+    version: ~> 0.11.0
   coffee-script-source:
     github: jessedoyle/coffee-script-source
     version: ~> 1.11.1
