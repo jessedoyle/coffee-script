@@ -2,9 +2,9 @@ version: 1.0
 shards:
   coffee-script-source:
     github: jessedoyle/coffee-script-source
-    version: 1.11.1
+    version: 1.12.6
 
   duktape:
     github: jessedoyle/duktape.cr
-    version: 0.11.0
+    version: 0.12.0
 
