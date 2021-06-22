@@ -21,7 +21,7 @@ Add this to your project's `shard.yml`:
 dependencies:
   coffee-script:
     github: jessedoyle/coffee-script
-    version: ~> 0.6.0
+    version: ~> 1.0
 ```
 
 then execute `shards install`.
@@ -44,7 +44,7 @@ CoffeeScript.compile(src, { bare: true }) # => compiled code
 
 ## Dependencies
 
-This library depends on the [coffee-script-source](https://github.com/jessedoyle/coffee-script-source) shard which will be updated anytime a new version of CoffeeScript is released. The `coffee-script-source` shard's version number will match the corresponding CoffeeScript compiler.
+This library depends on the [coffee-script-source](https://github.com/jessedoyle/coffee-script-source) shard, please see the [releases page](https://github.com/jessedoyle/coffee-script-source/releases) for compiler versions.
 
 This library uses [duktape.cr](https://github.com/jessedoyle/duktape.cr) as the javascript runtime.
 
